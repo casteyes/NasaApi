@@ -31,7 +31,7 @@ font-family:Zen Dots;
 font-weight:300;
 color:#FFFFFF;
 transition: all 0.2s;
-margin-left: 665px;
+
 
 }
 
@@ -40,36 +40,7 @@ color:#000000;
 background-color:#FFFFFF;
 }
 
-.wrapper{
-  position:fixed;
-  left:0 ;
-  right:0;
-  width: 100%;
-  height: 100%;
 
-}
-
-.particle-canvas{
-    position:fixed;
-  left:0 ;
-  right:0;
-  width: 100%;
-  height: 100%;
-}
-
-#main-section {
-  overflow: hidden;
-}
-
-#particles-js {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 50% 50%;
- 
-}
 
 #text_div {
   position: absolute;
@@ -83,7 +54,7 @@ background-color:#FFFFFF;
 .center_all {
   position: absolute;
   top: 50%;
-  left: 27.5%;
+  left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
   position: absolute;
@@ -91,7 +62,16 @@ background-color:#FFFFFF;
 }
 
 
-body{
+html, body, #root, .App {
+  height: 100%;
   background-color: black;
-  
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
