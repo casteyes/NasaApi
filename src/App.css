@@ -15,3 +15,83 @@
   color:white;
   font-family: Zen Dots;
 }
+
+
+.button{
+display:inline-block;
+padding:0.35em 1.2em;
+border:0.1em solid #FFFFFF;
+margin:0 0.3em 0.3em 0;
+text-align: center;
+margin-top: 25px;
+border-radius:0.12em;
+box-sizing: border-box;
+text-decoration:none;
+font-family:Zen Dots;
+font-weight:300;
+color:#FFFFFF;
+transition: all 0.2s;
+margin-left: 665px;
+
+}
+
+.button:hover{
+color:#000000;
+background-color:#FFFFFF;
+}
+
+.wrapper{
+  position:fixed;
+  left:0 ;
+  right:0;
+  width: 100%;
+  height: 100%;
+
+}
+
+.particle-canvas{
+    position:fixed;
+  left:0 ;
+  right:0;
+  width: 100%;
+  height: 100%;
+}
+
+#main-section {
+  overflow: hidden;
+}
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+ 
+}
+
+#text_div {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: 10px;
+}
+
+.center_all {
+  position: absolute;
+  top: 50%;
+  left: 27.5%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  color: white;
+}
+
+
+body{
+  background-color: black;
+  
+}
