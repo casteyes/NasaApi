@@ -3,13 +3,11 @@ import { Navbar } from './components/Navbar';
 import './App.css';
 
 
-import axios from 'axios'
-import React, {useState, useEffect} from 'react';
+import React from 'react';
 import ParticleBackground from './components/ParticleBackground';
 
 function App() {
-const [items, setItems] = useState([]);
-const [isLoading, setIsLoading] = useState(true);
+
 
 
   return (
